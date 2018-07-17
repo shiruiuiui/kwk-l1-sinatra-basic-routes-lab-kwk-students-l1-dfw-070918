@@ -4,5 +4,16 @@ class App < Sinatra::Base
   get '/' do
     "Hello, World!"
 end
-class App < Sinatra::Base
+
+  get '/name' do
+    "My name is Shirui Zhong"
+end
+
+  get '/hometown' do 
+    "My hometown is Morgantown."
+end
+
+  get '/favorite-song' do
+    "no"
+end
 end
