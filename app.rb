@@ -14,6 +14,6 @@ end
 end
 
   get '/favorite-song' do
-    "my favorite song is no"
+    "My favorite song is no"
 end
 end
